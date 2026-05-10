@@ -1,5 +1,3 @@
-# Integración Frontend ↔ Boxful API
-
 Esta guía está pensada para desarrolladores que consumen esta API desde un navegador u otra aplicación cliente. Es complementaria de **Swagger** (`/api/docs` cuando el servidor corre en local).
 
 ---
