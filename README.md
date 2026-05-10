@@ -19,3 +19,9 @@ el backend correra en el puerto 3001, Para que no hay interferencia con el front
 
 4) `npm run start:dev` → listo. ya puede ejecutar el proyecto
 
+
+
+cada usuario que se registra tiene su propio historial y sus propias órdenes: lo que ves al iniciar sesión es solo lo que creaste con esa cuenta. El PDF de la prueba tecnica no pide roles (admin, comercios compartidos, equipo con el mismo panel, etc.), así que no hay compartición de órdenes entre cuentas y cambios de estados de una orden entre usuarios, por ejemplo maria hizo tal orden, el repartido entro con su usuarios y no vera la orden de maria porque son cuentas diferente.
+
+Si en el futuro el producto pide varios perfiles o permisos (por ejemplo admin, varios comercios, misma organización), se puede evolucionar el modelo con roles, organizaciones o workspaces; hoy el alcance es multi‑cuenta con datos aislados por usuario autenticado, Pero como digo si se gusta cambiarlos a futuro claro que se puede hacer, gracias!!
+
